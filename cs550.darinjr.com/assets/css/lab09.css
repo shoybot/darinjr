@@ -1,0 +1,11 @@
+﻿/*********************
+** lab09.css
+**********************/
+
+form {
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: beige;
+  width: 250px;
+  padding: 16px;
+}

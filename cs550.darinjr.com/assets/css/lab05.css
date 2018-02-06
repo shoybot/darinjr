@@ -1,0 +1,67 @@
+﻿/*********************
+lab04.css
+**********************/
+
+/***  import Google fonts: Oxygen and Open Sans  ***/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oxygen');
+
+/***  set font family for body to Oxygen, Open Sans, and sans-serif  ***/
+body {
+  font-family: 'Oxygen', 'Open Sans', and sans-serif;
+}
+
+/***  set font family for table to Open Sans, sans-serif  ***/
+table {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+/***  
+set the following for table, th, and td:
+   border to 1 px solid black
+   border collapse to collapse
+   padding to 5px
+***/
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+/***  set the background color for the class totcol to antiquewhite  ***/
+.totcol {
+  background-color: antiquewhite;
+}
+
+/***
+set the following for a:
+   text decoration to none
+   color to navy
+   font weight to bold
+***/
+a {
+  text-decoration: none;
+  color: navy;
+  font-weight: bold;
+}
+
+/***  set the color for a:visited to purple  ***/
+a:visited {
+  color: purple;
+}
+
+/***  set the color for a:hover to green  ***/
+a:hover {
+  color: green;
+}
+
+/***  set the opacity for an image inside a:hover to 0.5  ***/
+a:hover img{
+  opacity: 0.5;
+}
+
+/*** set the display for @media print / image to none  ***/
+@media print {
+  a img {
+    display: none;
+  }
+}

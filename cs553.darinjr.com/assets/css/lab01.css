@@ -1,0 +1,17 @@
+﻿body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 48px;
+    background-color:#eee;
+}
+
+img
+{
+    border-radius: 12px;
+}
+
+a 
+{
+	text-decoration: underline;
+	color: #000;
+}
